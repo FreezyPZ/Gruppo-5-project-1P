@@ -152,3 +152,59 @@ padding: 0;
 .section3-text p:visited{
     color: black;
 }
+
+/* Bottom Navbar */
+
+.bottom-navbar {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-menu-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 5vw;
+    padding: 0 15vw;
+}
+
+.bottom-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh 0;
+    list-style-type: none;
+}
+
+.bottom-menu li{
+    color: grey;
+}
+
+.bottom-menu * a:visited {
+    color: grey;
+}
+
+
+.bottom-menu * a:hover{
+    color: black;
+}
+
+.bottom-menu li:first-child {
+    color: black;
+}
+
+
+.menu-bot {
+    height: 300px;
+}
+
+.bottom-menu-icon-box {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 15vw;
+}
+
+.bottom-menu-icon-box img{
+    width: 40px;
+    height: 40px;
+}
