@@ -1,0 +1,55 @@
+ul {
+  list-style-type: none;
+}
+
+#menu {
+  padding-left: 87px;
+  float: left;
+  font-size: 11pt;
+}
+
+li {
+  color: grey;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbarbox {
+  box-sizing: border-box;
+}
+
+#ways {
+  padding-left: 128px;
+  padding-right: 128px;
+}
+
+#phone {
+  margin-left: 380px;
+}
+
+#hours {
+  font-size: 15px;
+}
+
+#number {
+  color: rgb(14, 190, 243);
+  font-size: 20px;
+}
+
+#bottom {
+  margin-left: 350px;
+}
+
+#copyright {
+  color: gray;
+  margin-left: 128px;
+  font-size: 14px;
+}
+
+#trusted {
+  margin-left: 865px;
+  height: 42px;
+}
