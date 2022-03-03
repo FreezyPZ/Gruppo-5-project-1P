@@ -1,3 +1,7 @@
+body {
+  background-color: whitesmoke;
+}
+
 ul {
   list-style-type: none;
 }
@@ -8,13 +12,14 @@ ul {
   font-size: 11pt;
 }
 
-li {
+#list {
   color: grey;
 }
 
-nav {
+#secnav {
   display: flex;
   flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbarbox {
@@ -52,4 +57,83 @@ nav {
 #trusted {
   margin-left: 865px;
   height: 42px;
+}
+
+#img {
+  width: 50px;
+  height: 50px;
+}
+
+#bimg {
+  width: 500px;
+  height: 500px;
+}
+
+#sdiv {
+  padding-left: 380px;
+}
+
+#fdiv {
+  padding-left: 235px;
+}
+
+#earbudsblack {
+  width: 1500px;
+  margin-top: 38px;
+}
+
+#opbp {
+  position: absolute;
+  margin-top: 92px;
+  font-size: 22pt;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#price {
+  position: absolute;
+  margin-top: 142px;
+  font-size: 20pt;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#avilability {
+  position: absolute;
+  margin-top: 185px;
+  font-size: 12pt;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#color {
+  position: absolute;
+  margin-top: 265px;
+  color: grey;
+  font-size: 14pt;
+}
+
+#glossy {
+  position: absolute;
+  margin-top: 300px;
+}
+
+#matte {
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 335px;
+}
+
+#earphone {
+  color: white;
+  position: absolute;
+  top: 850px;
+  left: 301px;
+  font-size: 28pt;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#moreinfo {
+  color: white;
+  position: absolute;
+  top: 918px;
+  left: 322px;
+  font-size: 14pt;
 }
